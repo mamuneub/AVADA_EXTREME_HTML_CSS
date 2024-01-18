@@ -1,0 +1,107 @@
+/* google font */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.container {
+    width: 1620px;
+    height: 72px;
+    margin: 0 auto;
+}
+
+.primary_btn a {
+    font: 700 18px 'IBM Plex Sans', sans-serif;
+    background-color: #FFF;
+    color: #000;
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+
+.primary_btn a:hover {
+    background-color: #FF9600;
+    color: #FFF;
+    transition: 0.3s;
+}
+
+/* =======================
+    Common CSS End 
+=========================*/
+.hero_section {
+    width: 1920px;
+    height: 750px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background: url(../images/header-no-sep.png) no-repeat;
+    background-size: 1920px 750px;
+    position: relative;
+}
+
+#main_menu {
+    font-size: 18px;
+}
+
+.nav_row {
+    display: flex;
+    padding: 20px 0 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.items_col ul {
+    display: flex;
+}
+
+.items_col ul li {
+    font-weight: 700;
+    margin: 0 58px;
+}
+
+.items_col ul li a {
+    color: #F6F0F0;
+}
+
+.items_col ul li a:hover {
+    color: #FF9600;
+    transition: 0.3s;
+}
+
+.banner_text {
+    font-size: 72px;
+    color: #FFF;
+    text-align: center;
+    padding: 148px 250px 48px;
+}
+.banner_btn {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.banner_btn a:first-child {
+    margin-right: 56px;
+}
+.banner_shape{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
