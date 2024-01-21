@@ -1,12 +1,20 @@
 /* google font */
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Yellowtail&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
+}
+
+.yellowtail {
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+}
+body{
+background-color: #E5E5E5;
 }
 
 ul,
@@ -91,6 +99,7 @@ img {
     text-align: center;
     padding: 148px 250px 48px;
 }
+
 .banner_btn {
     width: fit-content;
     margin: 0 auto;
@@ -99,10 +108,104 @@ img {
 .banner_btn a:first-child {
     margin-right: 56px;
 }
+
 /* Banner_Shape_Area CSS */
-.banner_shape{
+.banner_shape {
     width: 100%;
     position: absolute;
     left: 0;
     bottom: 0;
+}
+
+/* Adventure section area */
+#Adventure {
+    height: 620px;
+    margin-top: 105px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    align-items: center;
+}
+.adv_col{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.adv_text{
+    width: 720px;
+}
+.text_color {
+    color: #49C4F5;
+    margin: 35px 0 5px;
+}
+
+.heading_text {
+    font-size: 54px;
+    color: #222222;
+    margin-bottom: 15px;
+}
+
+.p_text {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 36px;
+}
+
+.ellipse p{
+    display: inline-block;
+    margin: 0 0 15px 10px;
+}
+
+.ellipse_size {
+    width: 30px;
+    height: 30px;
+}
+.adv_btn{
+    margin-top: 35px;
+}
+.adv_img{
+    margin-left: 120px;
+    display: flex;
+}
+.sports1{
+    width: 300px;
+    height: 620px;
+    margin-right: 125px;
+}
+.sports2{
+    width: 300px;
+    height: 500px;
+    margin: 70px 0 135px 50px;
+}
+#count_down{
+    margin: 100px 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.count_col{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.count_col h2{
+    font-size: 80px;
+}
+.count_col p{
+    font-size: 18px;
+}
+.counting1{
+    width: 350px;
+    height: 150px;
+    background-color: #FFF4E5;
+}
+.counting2{
+    width: 350px;
+    height: 150px;
+    background-color: #E7FDE9;
+}
+.counting3{
+    width: 350px;
+    height: 150px;
+    background-color: #F2F2FD;
+}
+.counting4{
+    width: 350px;
+    height: 150px;
+    background-color: #FFF4E5;
 }
