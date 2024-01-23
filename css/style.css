@@ -1,6 +1,7 @@
 /* google font */
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 * {
     margin: 0;
@@ -11,10 +12,12 @@
 
 .yellowtail {
     font-family: 'Yellowtail', cursive;
+    font-weight: 400;
     font-size: 30px;
 }
-body{
-background-color: #E5E5E5;
+
+body {
+    background-color: #E5E5E5;
 }
 
 ul,
@@ -34,7 +37,6 @@ img {
 
 .container {
     width: 1620px;
-    height: 72px;
     margin: 0 auto;
 }
 
@@ -124,13 +126,11 @@ img {
     font-family: 'IBM Plex Sans', sans-serif;
     align-items: center;
 }
-.adv_col{
+
+.adv_col {
     display: flex;
-    /* justify-content: space-between; */
 }
-.adv_text{
-    width: 720px;
-}
+
 .text_color {
     color: #49C4F5;
     margin: 35px 0 5px;
@@ -148,7 +148,7 @@ img {
     margin-bottom: 36px;
 }
 
-.ellipse p{
+.ellipse p {
     display: inline-block;
     margin: 0 0 15px 10px;
 }
@@ -157,55 +157,126 @@ img {
     width: 30px;
     height: 30px;
 }
-.adv_btn{
+
+.adv_btn {
     margin-top: 35px;
 }
-.adv_img{
+
+.adv_img {
     margin-left: 120px;
     display: flex;
 }
-.sports1{
+
+.sports1 {
     width: 300px;
     height: 620px;
     margin-right: 125px;
 }
-.sports2{
+
+.sports2 {
     width: 300px;
     height: 500px;
     margin: 70px 0 135px 50px;
 }
-#count_down{
-    margin: 100px 0;
+
+#count_down {
+    padding: 100px 0;
     font-family: 'IBM Plex Sans', sans-serif;
 }
-.count_col{
+
+.count_col {
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
-.count_col h2{
+
+.count_col h3 {
     font-size: 80px;
 }
-.count_col p{
+
+.count_col p {
     font-size: 18px;
 }
-.counting1{
+
+.counting1 {
     width: 350px;
     height: 150px;
     background-color: #FFF4E5;
 }
-.counting2{
+
+.counting2 {
     width: 350px;
     height: 150px;
     background-color: #E7FDE9;
 }
-.counting3{
+
+.counting3 {
     width: 350px;
     height: 150px;
     background-color: #F2F2FD;
 }
-.counting4{
+
+.counting4 {
     width: 350px;
     height: 150px;
     background-color: #FFF4E5;
+}
+
+#activities {
+    background-color: #0C3543;
+}
+
+.activities_col {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text_head h3 {
+    color: #FF9600;
+    margin-top: 100px;
+}
+
+.text_head h2 {
+    color: #FFF;
+    margin-bottom: 140px;
+}
+
+.text {
+    color: #FFF;
+    font: 400 18px 'IBM Plex Sans', sans-serif;
+    width: 622px;
+    height: 70px;
+}
+
+.biking_container {
+    text-align: center;
+}
+.card1, .card2{
+    display: flex;
+    justify-content: space-between;
+}
+.card2{
+    padding: 50px 0;
+}
+
+.biking {
+    width: 424px;
+    height: 438px;
+    background-color: #0F4152;
+    color: #FFF;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-left: 24px;
+}
+.biking:nth-child(1){
+    margin-left: 0;
+}
+
+.biking h4 {
+    font: 700 30px 'Inter', sans-serif;
+    padding: 36px 0 15px;
+}
+.biking h4:hover{
+    color: #FF9600;
 }
