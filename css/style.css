@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Yellowtail&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -120,9 +120,9 @@ img {
     font-family: 'IBM Plex Sans', sans-serif;
     align-items: center;
 }
-
 .adv_col {
     display: flex;
+    position: relative;
 }
 
 .text_color {
@@ -137,7 +137,16 @@ img {
 .adv_text h2 {
     font-size: 54px;
     color: #222;
-    margin-bottom: 15px;
+    margin-bottom: 65px;
+}
+.adv_text h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 250px;
+    width: 83px;
+    height: 1px;
+    background-color: #000;
 }
 
 .adv_text p {
@@ -200,18 +209,21 @@ img {
     width: 350px;
     height: 150px;
     background-color: #FFF4E5;
+    margin-right: 24px;
 }
 
 .counting2 {
     width: 350px;
     height: 150px;
     background-color: #E7FDE9;
+    margin-right: 24px;
 }
 
 .counting3 {
     width: 350px;
     height: 150px;
     background-color: #F2F2FD;
+    margin-right: 24px;
 }
 
 .counting4 {
@@ -228,16 +240,29 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
-
+.text_head{
+    width: 30%;
+}
 .text_head h3 {
     color: #FF9600;
-    margin-top: 100px;
+    margin-top: 110px;
 }
 
 .text_head h2 {
     color: #FFF;
+    font-size: 54px;
     margin-bottom: 140px;
+}
+.text_head h2::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 320px;
+    background-color: #FFF;
+    width: 81px;
+    height: 3px;
 }
 
 .text {
@@ -282,4 +307,16 @@ img {
 
 .biking h4:hover {
     color: #FF9600;
+}
+.text_card h4{
+    font: 400 160px 'Arizonia', cursive;
+    color: #FFF;
+    text-align: center;
+    padding: 100px 0 45px;
+}
+.text_card img{
+    width: 450px;
+    height: 176px;
+    rotate: calc(-350px);
+    margin-top: -150px;
 }
