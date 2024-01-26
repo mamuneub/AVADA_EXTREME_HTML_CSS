@@ -36,7 +36,7 @@ img {
 }
 
 .container {
-    width: 1620px;
+    width: 1320px;
     margin: 0 auto;
 }
 
@@ -58,12 +58,9 @@ img {
     Common CSS End 
 =========================*/
 .hero_section {
-    width: 1920px;
-    height: 750px;
     font-family: 'IBM Plex Sans', sans-serif;
     background: url(../images/header-no-sep.png) no-repeat;
-    background-size: 1920px 750px;
-    position: relative;
+    background-size: cover;
 }
 
 #main_menu {
@@ -83,7 +80,7 @@ img {
 
 .items_col ul li {
     font-weight: 700;
-    margin: 0 58px;
+    margin: 0 45px;
 }
 
 .items_col ul li a {
@@ -95,7 +92,7 @@ img {
     transition: 0.3s;
 }
 
-.banner_text {
+.banner_text h1 {
     font-size: 72px;
     color: #FFF;
     text-align: center;
@@ -105,6 +102,7 @@ img {
 .banner_btn {
     width: fit-content;
     margin: 0 auto;
+    padding-bottom: 212px;
 }
 
 .banner_btn a:first-child {
@@ -114,14 +112,10 @@ img {
 /* Banner_Shape_Area CSS */
 .banner_shape {
     width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: 0;
 }
 
 /* Adventure section area */
 #Adventure {
-    height: 620px;
     margin-top: 105px;
     font-family: 'IBM Plex Sans', sans-serif;
     align-items: center;
@@ -136,13 +130,17 @@ img {
     margin: 35px 0 5px;
 }
 
-.heading_text {
+.adv_text {
+    width: 50%;
+}
+
+.adv_text h2 {
     font-size: 54px;
-    color: #222222;
+    color: #222;
     margin-bottom: 15px;
 }
 
-.p_text {
+.adv_text p {
     font-size: 18px;
     color: #000;
     margin-bottom: 36px;
@@ -163,20 +161,20 @@ img {
 }
 
 .adv_img {
-    margin-left: 120px;
+    width: 50%;
     display: flex;
+    align-items: center;
 }
 
 .sports1 {
     width: 300px;
     height: 620px;
-    margin-right: 125px;
+    margin-right: 50px;
 }
 
 .sports2 {
-    width: 300px;
-    height: 500px;
-    margin: 70px 0 135px 50px;
+    width: 295px;
+    height: 510px;
 }
 
 #count_down {
@@ -252,11 +250,14 @@ img {
 .biking_container {
     text-align: center;
 }
-.card1, .card2{
+
+.card1,
+.card2 {
     display: flex;
     justify-content: space-between;
 }
-.card2{
+
+.card2 {
     padding: 50px 0;
 }
 
@@ -269,7 +270,8 @@ img {
     overflow: hidden;
     margin-left: 24px;
 }
-.biking:nth-child(1){
+
+.biking:nth-child(1) {
     margin-left: 0;
 }
 
@@ -277,6 +279,7 @@ img {
     font: 700 30px 'Inter', sans-serif;
     padding: 36px 0 15px;
 }
-.biking h4:hover{
+
+.biking h4:hover {
     color: #FF9600;
 }
