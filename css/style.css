@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Yellowtail&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -120,6 +121,7 @@ img {
     font-family: 'IBM Plex Sans', sans-serif;
     align-items: center;
 }
+
 .adv_col {
     display: flex;
     position: relative;
@@ -139,6 +141,7 @@ img {
     color: #222;
     margin-bottom: 65px;
 }
+
 .adv_text h2::after {
     content: "";
     position: absolute;
@@ -242,9 +245,11 @@ img {
     justify-content: space-between;
     position: relative;
 }
-.text_head{
+
+.text_head {
     width: 30%;
 }
+
 .text_head h3 {
     color: #FF9600;
     margin-top: 110px;
@@ -255,7 +260,8 @@ img {
     font-size: 54px;
     margin-bottom: 140px;
 }
-.text_head h2::after{
+
+.text_head h2::after {
     content: "";
     position: absolute;
     left: 0;
@@ -308,15 +314,366 @@ img {
 .biking h4:hover {
     color: #FF9600;
 }
-.text_card h4{
+
+.text_card h4 {
     font: 400 160px 'Arizonia', cursive;
     color: #FFF;
     text-align: center;
     padding: 100px 0 45px;
 }
-.text_card img{
+
+.text_card img {
     width: 450px;
     height: 176px;
     rotate: calc(-350px);
     margin-top: -150px;
+}
+
+#max {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #FF9600;
+}
+
+.second_logo {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.second_logo img {
+    width: 100px;
+    height: 74px;
+    overflow: hidden;
+}
+
+.second_logo h2 {
+    font-size: 55px;
+    color: #FFF;
+    padding: 30px 0 50px;
+}
+
+.second_logo h3 {
+    font-size: 30px;
+    color: #FFF;
+    padding-bottom: 56px;
+}
+
+.third_btn {
+    padding-bottom: 20px;
+}
+
+.third_btn a {
+    background-color: #0C3543;
+    color: #FFF;
+}
+
+.third_btn a:hover {
+    color: #0C3543;
+    background-color: #FFF;
+}
+
+/* The Max Area */
+
+.max_card {
+    font-family: 'IBM Plex Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.sports_video {
+    position: relative;
+    bottom: -50px;
+}
+
+.sports_video_img {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.sports_video_img img {
+    width: 400px;
+    height: 445px;
+    border-radius: 15px;
+}
+
+.sports_video_text {
+    position: absolute;
+    bottom: 0;
+}
+
+.sports_video_text h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFF;
+    padding: 0 56px 27px;
+}
+
+.sports_video_text h4 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #FFF;
+    padding: 0 0 37px;
+}
+
+.sports_video_text h4::after {
+    content: "";
+    width: 260px;
+    height: 2px;
+    background-color: #C4C4C4;
+    position: absolute;
+    left: 65px;
+    bottom: 78px;
+}
+
+.sports_video_text p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #A0A0A0;
+    padding: 35px 0 25px;
+}
+
+/* choose area */
+#choose {
+    padding-top: 190px;
+    text-align: center;
+}
+
+.text_col h3 {
+    color: #14B9F1;
+}
+
+.text_col h4 {
+    font-size: 30px;
+    padding: 29px 0;
+    position: relative;
+}
+
+.text_col h4::after {
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #A0A0A0;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+.choose_card {
+    display: flex;
+    margin-top: 35px;
+}
+
+.choose_card_col {
+    margin-right: 85px;
+}
+
+.choose_card_col:last-child {
+    margin-right: 0;
+}
+
+.logo_card {
+    width: 150px;
+    height: 150px;
+    background-color: #C4C4C4;
+    border-radius: 50%;
+    position: relative;
+    left: 60px;
+    top: 10px;
+    margin-bottom: 60px;
+}
+
+.logo_card img {
+    position: absolute;
+    left: 0;
+    top: 45px;
+}
+
+.logo_text h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.logo_text p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+}
+
+/* Sports new area */
+#sports_News {
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding-top: 100px;
+}
+
+.News_text h2 {
+    color: #000;
+    font-size: 54px;
+}
+
+.News_text h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 320px;
+    background-color: #A0A0A0;
+    width: 85px;
+    height: 2px;
+    margin-bottom: 95px;
+}
+
+.news_text p {
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+    width: 620px;
+    height: 70px;
+}
+
+.news_card {
+    display: flex;
+    text-align: center;
+}
+
+.news_img_card {
+    margin-right: 24px;
+}
+
+.news_img {
+    width: 424px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 15px 15px 0 0;
+}
+
+.news_text_img h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+    padding: 38px 0 35px;
+}
+
+.news_text_img p {
+    font-size: 18px;
+    font-weight: 400px;
+    color: #000;
+    padding-bottom: 42px;
+}
+
+.new_link {
+    border-top: 1px solid #000;
+    padding: 44px 0;
+
+}
+
+.new_link a {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FF9600;
+}
+
+.new_link a:hover {
+    color: #14B9F1;
+    transition: 0.3s;
+}
+
+/* Sponsor area */
+#sponsor {
+    margin-top: 150px;
+}
+
+.sponsor_col img {
+    width: 160px;
+    height: 157px;
+    margin-right: 68px;
+}
+
+.sponsor_col img:last-child {
+    margin-right: 0;
+}
+
+#footer {
+    margin-top: 42px;
+    background-color: #0C3543;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #FFF;
+}
+
+.footer_col {
+    display: flex;
+}
+
+.footer_img {
+    width: 50%;
+}
+
+.footer_logo img {
+    width: 252px;
+    height: 75px;
+}
+
+.footer_text {
+    margin: 0 91px 0 44px;
+    width: 40%;
+}
+
+.footer_logo {
+    margin-top: 80px;
+
+}
+
+.join {
+    display: flex;
+    margin: 80px 0 127px;
+    position: relative;
+}
+
+.join::after {
+    content: "";
+    width: 580px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    top: 150px;
+    background-color: #C4C4C4;
+}
+
+.join_btn {
+    margin-top: 28px;
+}
+
+.join_text p {
+    font-size: 18px;
+    font-weight: 400;
+    width: 373px;
+    height: 99px;
+    margin-left: 33px;
+}
+
+.contact_text h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact_text {
+    margin-right: 33px;
+}
+
+.contact_prag p {
+    margin-bottom: 32px;
+}
+
+.contact_prag p:last-child {
+    margin-bottom: 65px;
+}
+
+.footer_text p {
+    font-size: 20px;
 }
